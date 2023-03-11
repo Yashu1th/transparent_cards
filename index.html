@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>glassmorphism by S1th</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">01</h2>
+                <h3 class="card-subtitle">card one</h3>
+                <p class="matter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium architecto consectetur nam inventore sapiente recusandae odit culpa natus laborum eum incidunt sint maiores ut sunt itaque, ratione harum exercitationem.</p>
+                <button>know more</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">02</h2>
+                <h3 class="card-subtitle">card two</h3>
+                <p class="matter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium architecto consectetur nam inventore sapiente recusandae odit culpa natus laborum eum incidunt sint maiores ut sunt itaque, ratione harum exercitationem.</p>
+                <button>know more</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">03</h2>
+                <h3 class="card-subtitle">card three</h3>
+                <p class="matter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium architecto consectetur nam inventore sapiente recusandae odit culpa natus laborum eum incidunt sint maiores ut sunt itaque, ratione harum exercitationem.</p>
+                <button>know more</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare:true,
+            "max-glare":1,  
+        });
+        
+        //It also supports NodeList
+        // VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+</body>
+</html>
